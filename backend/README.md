@@ -14,4 +14,6 @@ We will look at:
 * How you use OOP.
 * Your code quality.
 * Your ability to use unit tests.
- 
+
+## Implementation
+* In this folder, run `mvn clean install` to execute all tests, generate file `Level1/data/output.json` and compile code.
