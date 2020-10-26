@@ -16,4 +16,4 @@ We will look at:
 * Your ability to use unit tests.
 
 ## Implementation
-* In this folder, run `mvn clean install` to execute all tests, generate file `Level1/data/output.json` and compile code.
+* In this folder, run `mvn clean install` to execute all tests, generate files `Level1/data/output.json` and `Level2/data/output.json` and compile code.
