@@ -17,3 +17,9 @@ We will look at:
 
 ## Implementation
 * In this folder, run `mvn clean install` to execute all tests, generate files `Level1/data/output.json` and `Level2/data/output.json` and compile code.
+* In this folder, run `mvn spring-boot:run` to run application on port 8080 of the local host, and exposed secure REST endpoints.
+* For authentication, use company name as username, and company id as password.
+* You can use curl to call secure endpoints like this
+```
+curl "http://localhost:8080/<PATH>" --user <COMPANY_NAME>:<COMPANY_ID>
+```
